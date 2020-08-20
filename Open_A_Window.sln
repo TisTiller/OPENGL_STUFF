@@ -5,8 +5,6 @@ VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenWindow", "Project1\Project1.vcxproj", "{1CD6445A-E9D5-4FFE-8854-E71B99953DA7}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Shader_Section", "Shader_Section\Shader_Section.vcxproj", "{0E821A61-D87F-44C3-8C79-60A946FC99DF}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ShaderSection", "ShaderSectionTest\ShaderSection.vcxproj", "{6156FC6C-DD95-4AD2-B334-CBB00A1B47EE}"
 EndProject
 Global
@@ -25,14 +23,6 @@ Global
 		{1CD6445A-E9D5-4FFE-8854-E71B99953DA7}.Release|x64.Build.0 = Release|x64
 		{1CD6445A-E9D5-4FFE-8854-E71B99953DA7}.Release|x86.ActiveCfg = Release|Win32
 		{1CD6445A-E9D5-4FFE-8854-E71B99953DA7}.Release|x86.Build.0 = Release|Win32
-		{0E821A61-D87F-44C3-8C79-60A946FC99DF}.Debug|x64.ActiveCfg = Debug|x64
-		{0E821A61-D87F-44C3-8C79-60A946FC99DF}.Debug|x64.Build.0 = Debug|x64
-		{0E821A61-D87F-44C3-8C79-60A946FC99DF}.Debug|x86.ActiveCfg = Debug|Win32
-		{0E821A61-D87F-44C3-8C79-60A946FC99DF}.Debug|x86.Build.0 = Debug|Win32
-		{0E821A61-D87F-44C3-8C79-60A946FC99DF}.Release|x64.ActiveCfg = Release|x64
-		{0E821A61-D87F-44C3-8C79-60A946FC99DF}.Release|x64.Build.0 = Release|x64
-		{0E821A61-D87F-44C3-8C79-60A946FC99DF}.Release|x86.ActiveCfg = Release|Win32
-		{0E821A61-D87F-44C3-8C79-60A946FC99DF}.Release|x86.Build.0 = Release|Win32
 		{6156FC6C-DD95-4AD2-B334-CBB00A1B47EE}.Debug|x64.ActiveCfg = Debug|x64
 		{6156FC6C-DD95-4AD2-B334-CBB00A1B47EE}.Debug|x64.Build.0 = Debug|x64
 		{6156FC6C-DD95-4AD2-B334-CBB00A1B47EE}.Debug|x86.ActiveCfg = Debug|Win32

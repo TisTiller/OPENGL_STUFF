@@ -523,7 +523,13 @@ void rotateTriangle(GLFWwindow* window, bool direction)
 
 			vertices[x+1] = radius * sin(angle);
 			vertices[x] = radius * cos(angle);
-
+			//
+			// TODO: Fix this stupid thing. If i resize the window to non-square, the rotation is fucky (not quite circular). 
+			// I need to create a second array of vertices which is to be displayed, while there is another backend array of 
+			// vertices to be manipulated without modification, otherwise even more fucky things happen.
+			// (ALSO THE ZOOM IS SHITTY BECAUSE IT EXPANDS like y=x, it needs to use the angles, easy fix (more or less)
+			// (ALSO ALSO make the zoom thingo a function pleaze.)
+			//
 		}
 		tmp++;
 

@@ -46,9 +46,9 @@ float height_ = IHEIGHT;
 float width_ = IWIDTH;
 
 float vertices[] = {
-	height_/width_*-0.5f*cos(PI/6), -0.5f*sin(PI/6),	 0.0f, 1.0f, 1.0f, 1.0f,	// Bottom Left Mid
-	 height_ / width_ * 0.5f*cos(PI/6), -0.5f*sin(PI/6),	 0.0f, 0.0f, 0.0f, 0.0f,	// Bottom Right Mid
-	 0.0f,				  0.5f,				 0.0f, 0.5f, 1.0f, 0.0f	// Top Mid
+	height_ / width_* -0.5f*cos(PI/6),		-0.5f*sin(PI/6),	 0.0f, 1.0f, 1.0f, 1.0f,	// Bottom Left Mid
+	height_ / width_ * 0.5f*cos(PI/6),		-0.5f*sin(PI/6),	 0.0f, 0.0f, 0.0f, 0.0f,	// Bottom Right Mid
+	0.0f,									 0.5f,				 0.0f, 0.5f, 1.0f, 0.0f		// Top Mid
 };
 
 const float resetVertices[] = {
@@ -182,7 +182,6 @@ int WinMain() {
 	unsigned int EBO;
 	glGenBuffers(1, &EBO);
 
-	// BIND VERTEX ARRAY
 	glBindVertexArray(VAO);
 
 	// Vertex Buffer
